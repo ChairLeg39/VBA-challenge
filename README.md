@@ -7,7 +7,7 @@ This VBA script is designed to analyze stock data across consecutive years. It l
 ## Overview of For Loops
 
 ### First For Loop - Stock Ticker and Volume Calculation
-- Sets initial variables for calculating ticker symbol and volume calculation.
+- Sets initial variables for calculating ticker symbol and volume.
 - Sets an initial stock volume to zero to ensure accurate summation.
 - Prints column names for data headers.
 - Compares adjacent cells to identify unique ticker symbols and prints the output.
