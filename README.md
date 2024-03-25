@@ -2,15 +2,15 @@
 KU Boot Camp Week 2 Challenge - Stock Analysis VBA Script
 
 ## Introduction
-This VBA script is designed to analyze stock data across consecutive years. It leverages three primary For Loops to aggregate and calculate key financial indicators for a variety of stocks. The script dynamically accommodates data from different years by incrementing the year as it processes through each worksheet. The output includes the stock ticker, yearly change, percentage change, and total stock volume, along with the greatest increase, decrease, and total volume metrics.
+This VBA script is designed to analyze stock data across consecutive years. It leverages three primary For Loops to aggregate and calculate key financial indicators for a variety of stocks. The script dynamically accommodates data from different years by incrementing the year as it processes through each worksheet. The output includes the ticker symbol, yearly change, percentage change, and total stock volume, along with the greatest increase, decrease, and total volume metrics.
 
 ## Overview of For Loops
 
 ### First For Loop - Stock Ticker and Volume Calculation
-- Sets initial variables for calculating stock ticker and volume calculation.
+- Sets initial variables for calculating ticker symbol and volume calculation.
 - Sets an initial stock volume to zero to ensure accurate summation.
 - Prints column names for data headers.
-- Compares adjacent cells to identify unique ticker symbols and print the output.
+- Compares adjacent cells to identify unique ticker symbols and prints the output.
 - Aggregates total stock volume per ticker and prints the output.
 - Resets total stock volume to zero to ensure accurate per-stock aggregation.
 
@@ -32,7 +32,7 @@ This VBA script is designed to analyze stock data across consecutive years. It l
 1. Open the Excel workbook titled Multiple_year_stock_data.xlsm, with the stock data organized by year in separate worksheets.
 2. Access the VBA editor by navigating to the 'Developer' tab, then clicking on the 'Visual Basic' icon.
 3. Run the script by pressing 'Run Sub'.
-4. Review the analysis results presented on each worksheet, which will include the stock ticker, yearly change, percentage change, and total stock volume, along with the greatest increase, decrease, and total volume metrics.
+4. Review the analysis results presented on each worksheet, which will include the ticker symbol, yearly change, percentage change, and total stock volume, along with the greatest increase, decrease, and total volume metrics.
 
 ## Contribution
 Contributions are welcome. To propose changes, please reach out with your suggestions or open an issue in the project repository.
